@@ -1,0 +1,68 @@
+
+html, body {
+
+  margin: 10px auto;
+  max-width: 90%;
+
+  font-family: fantasy;
+  line-height: 1.5;
+
+  padding: 5px 5px;
+  text-align: center;
+
+  font-size: 20px;
+
+}
+
+h1 {
+  padding: 20px 0px 10px 0px;
+  font-size: 50px;
+  color: #0A67BA;
+}
+
+h1:hover {
+  color: #85B3DC;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.header {
+ text-align: center;
+ font-size: 25px;
+}
+
+.header ul {
+ display: flex;
+ justify-content: center;
+}
+
+.header ul li {
+ list-style-type:none;
+ display: list-item;
+ line-height: 10px;
+ padding: 10px 30px 30px 0px;
+}
+
+p {
+ color: black;
+}
+
+a {
+ text-decoration: none;
+}
+
+a:hover {
+ color: #AE85DC;
+}
+
+g {
+  font-style: italic;
+  color: #BA0A67;
+}
+
+e {
+  font-style: italic;
+  color: #0ABAB5;
+}
