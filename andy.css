@@ -2,12 +2,12 @@
 html, body {
 
   margin: 10px auto;
-  max-width: 90%;
+  max-width: 100%;
 
   font-family: fantasy;
   line-height: 1.5;
 
-  padding: 5px 5px;
+
   text-align: center;
 
   font-size: 20px;
@@ -19,7 +19,6 @@ h1 {
   font-size: 50px;
   color: #0A67BA;
 }
-
 h1:hover {
   color: #85B3DC;
 }
@@ -39,10 +38,19 @@ p {
  color: black;
 }
 
+p1 {
+  font-size: smaller;
+  font-style: italic;
+}
+
+p2 {
+  font-size: larger;
+  font-weight: bold;
+}
+
 a {
  text-decoration: none;
 }
-
 a:hover {
  color: #AE85DC;
 }
@@ -51,15 +59,27 @@ a:hover {
  text-align: center;
  font-size: 25px;
 }
-
 .header ul {
  display: flex;
  justify-content: center;
 }
-
 .header ul li {
  list-style-type:none;
  display: list-item;
  line-height: 10px;
  padding: 10px 30px 30px 0px;
+}
+
+.container {
+  display: inline-flex;
+  padding: 10px;
+}
+.manImg {
+  display: none;
+  align-content: center;
+  max-width: 100%;
+  padding: 20px;
+}
+.hover-text:hover ~ .manImg {
+  display: block;
 }
